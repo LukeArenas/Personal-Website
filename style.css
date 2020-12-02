@@ -1,0 +1,129 @@
+/* Set the background color of the website */
+
+body {
+  background: #D6EFFF;
+}
+
+/* Style the header */
+
+header {
+  background-color: #4A4A48;
+  padding: 10px;
+}
+
+/* Create a class that will keep the color, font, and alignment for the
+ header and footer consistent. Specfics like font size will be handled individually through h1, h2, etc */
+
+.header-footer-text {
+  color: #D6EFFF;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 90px;
+  margin: 0;
+
+}
+
+h2 {
+  font-size: 35px;
+}
+
+/*Style the navigation bar. I chose to use just two colors for the anchor links for simplicity of color scheme. This 
+pattern will also apply for the links in the contact section. */ 
+
+header nav {
+  text-align: right;
+  margin: 30px;
+}
+
+header a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+a:link {
+  color: #B08EA2;
+}
+a:visited {
+  color: #B08EA2;
+}
+
+a:hover {
+  color: #4C956C;
+  }
+
+a:active {
+  color: #4C956C;
+}
+
+
+/* Begin styling for the main part of the site */
+
+main {
+  padding: 30px;
+}
+
+/* Create a round image class for the profile picture */
+.rounded-image {
+  border-radius: 50%;
+  width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Style the headers for the main part of the site */
+
+main h3 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #4A4A48;
+  font-size: 35px;
+}
+
+/* The paragraphs and unordered list can/should have the same style */
+
+p, ul {
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #4A4A48;
+  font-size: 18px;
+  margin-right: 25%;
+  margin-left: 25%;
+  line-height: 1.5;
+}
+
+/* The unordered list needs to have the numbers inside and slightly different margins than the p and ul */
+
+ol {
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #4A4A48;
+  font-size: 18px;
+  margin-right: 25%;
+  margin-left: 38%;
+  line-height: 1.5;
+  list-style-position: inside;
+}
+
+/*Style the footer. The text will also utilize the header-footer-text class for consistency and brevity of code*/
+
+footer {
+  background-color: #4A4A48;
+  padding: 25px;
+}
+
+footer h3 {
+  font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
