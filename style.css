@@ -69,6 +69,7 @@ main {
 .rounded-image {
   border-radius: 50%;
   width: 400px;
+  height: 400px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -120,7 +121,10 @@ footer h3 {
 }
 
 
-
+hr {
+  margin-right: 25%;
+  margin-left: 25%;
+}
 
 
 
